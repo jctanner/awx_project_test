@@ -1,0 +1,4 @@
+- hosts: localhost
+  gather_facts: False
+  tasks:
+      - shell: pwd; hostname -f; ls -al; ps aux
